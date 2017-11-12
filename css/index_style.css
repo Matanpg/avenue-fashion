@@ -738,24 +738,6 @@ align-self:
   font-weight: bold;
 }
 
-@media (max-width: 1200px) {
-  .disapear {
-    display: none;
-  }
-
-  .lookbook_win_2 {
-    padding-right: 1em;
-  }
-
-  .lookbook_win > h3 {
-    font-size: 2em;
-  }
-
-  .lookbook_main {
-    margin: 1em;
-  }
-}
-
 /*---------------- sign up----------------*/
 .signUp_main {
   display: flex;
@@ -821,4 +803,33 @@ label {
 .signUp_submit_line > div {
 text-align: right;
 color: #737373;
+}
+
+
+/*-------------------------------------*/
+@media (max-width: 1370px) {
+  .disapear {
+    display: none;
+  }
+
+  .lookbook_win_2 {
+    padding-right: 1em;
+  }
+
+  .lookbook_win > h3 {
+    font-size: 2em;
+  }
+
+  .lookbook_main {
+    margin: 1em;
+  }
+
+  .signUp_submit_line {
+    display:block;
+  }
+
+  .signUp_submit_line > input[type="submit"] {
+    width:100%;
+
+  }
 }
